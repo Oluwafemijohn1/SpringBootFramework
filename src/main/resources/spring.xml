@@ -9,7 +9,10 @@
 
 >
 
-    <bean class="demo.Doctor" id="doctor"></bean>
+    <bean class="demo.Doctor" id="doctor">
+        <property name="qualification" value="MMBS"></property>
+        <property name="nurse" ref="nurse"></property>
+    </bean>
     <bean class="demo.Nurse" id="nurse"></bean>
 
 </beans>
