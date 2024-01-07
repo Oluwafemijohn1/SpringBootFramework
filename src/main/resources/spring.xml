@@ -9,6 +9,6 @@
 
 >
 
-    <context:component-scan base-package="demo"></context:component-scan>
+<!--    <context:component-scan base-package="demo"></context:component-scan>-->
 
 </beans>

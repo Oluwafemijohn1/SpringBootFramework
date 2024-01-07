@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
  * Using annotations to inject
  * */
 
-@Component
 public class Doctor implements Staff {
 
 
